@@ -1,0 +1,51 @@
+.btn {
+    background-color: white; 
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: rgb(192, 192, 192); 
+
+}
+
+.flex-container {
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+
+
+background-color: aquamarine;
+}
+
+.ola {
+    width: 450px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding:30px 15px;
+    box-shadow: -2px 61px 104px 0px rgba(0,0,0,0.13);
+-webkit-box-shadow: -2px 61px 104px 0px rgba(0,0,0,0.13);
+-moz-box-shadow: -2px 61px 104px 0px rgba(0,0,0,0.13);
+}
+
+.hero-text{
+    text-align: center;
+    margin:0 0 24px 0;
+    color:white;
+}
+
+.complement{
+    text-align: center;
+    margin:0 0 24px 0;
+    color:white;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
