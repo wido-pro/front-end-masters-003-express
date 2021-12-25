@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "popmotion": "^11.0.3"
   },
   "devDependencies": {
     "parcel": "^2.0.1"

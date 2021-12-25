@@ -27,3 +27,16 @@ document
         console.error(err);
       });
   });
+
+
+
+const { keyframes, easing, styler } = window.popmotion;
+
+const bodyStyler = styler(document.body);
+
+keyframes({
+  values: ['#FF1C68', '#14D790', '#198FE3','#FF1C68'],
+  duration: 10000,
+  ease: easing.linear,
+  loop: Infinity
+}).start(bodyStyler.set('background'));
